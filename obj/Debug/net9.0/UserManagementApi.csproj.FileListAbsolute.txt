@@ -26,3 +26,14 @@ C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goal
 C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\obj\Debug\net9.0\UserManagementApi.pdb
 C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\obj\Debug\net9.0\UserManagementApi.genruntimeconfig.cache
 C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\obj\Debug\net9.0\ref\UserManagementApi.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\obj\Debug\net9.0\UserManagementApi.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\obj\Debug\net9.0\UserManagementApi.sourcelink.json
+C:\Users\Admin\OneDrive - National University of Singapore\Desktop\Personal Goals\fullstack\UserManagementApi\UserManagementApi\obj\Debug\net9.0\UserMana.5F5CA308.Up2Date
