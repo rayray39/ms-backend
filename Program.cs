@@ -23,8 +23,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuerSigningKey = true, 
             ValidIssuer = "yourIssuer", 
             ValidAudience = "yourAudience", 
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("yourSecretKey"))
-        }; 
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("myReallyUltraSuperMegaSecretKey12345!"))
+        };
+        options.IncludeErrorDetails = true; 
     });
 
 builder.Services.AddAuthorization();
@@ -68,6 +69,12 @@ app.Use(async (context, next) => {
     logger.LogInformation("HTTP Response Status Code: {StatusCode}", context.Response.StatusCode); 
 });
 
+
+// simulate a user login and retrieval of Jwt Token
+app.MapPost("/login", () => {
+    var token = JwtTokenGenerator.GenerateToken(); 
+    return Results.Ok(new { token });
+});
 
 // get all users
 app.MapGet("/users", () =>

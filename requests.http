@@ -1,28 +1,36 @@
-### Retrieve all users
+### Generate JWT Token
+POST http://localhost:5110/login
+Accept: application/json
+
+### Test Get All Users
 GET http://localhost:5110/users
+Authorization: Bearer INSERT_TOKEN_HERE
 Accept: application/json
 
-### Retrieve a user by ID
+### Test Get User by ID
 GET http://localhost:5110/users/1
+Authorization: Bearer INSERT_TOKEN_HERE
 Accept: application/json
 
-### Add a new user
+### Test Add New User
 POST http://localhost:5110/users
+Authorization: Bearer INSERT_TOKEN_HERE
 Content-Type: application/json
 
 {
-  "name": "Jonny Doe",
-  "address": "new york"
+  "name": "John Doe"
 }
 
-### Update a user
-PUT http://localhost:5110/users/3
+### Test Update User
+PUT http://localhost:5110/users/1
+Authorization: Bearer INSERT_TOKEN_HERE
 Content-Type: application/json
 
 {
+  "id": 1,
   "name": "Jane Doe"
 }
 
-### Delete a user
-DELETE http://localhost:5110/users/3
-
+### Test Delete User
+DELETE http://localhost:5110/users/1
+Authorization: Bearer INSERT_TOKEN_HERE
